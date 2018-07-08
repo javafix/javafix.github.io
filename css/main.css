@@ -1,9 +1,46 @@
-body {
-  background: light blue;
-  margin: 0;
-  font-family: 'Times New Roman', serif;
-  font-size: 18px;
-  }
-  
-
-  
+body 
+{
+    background-color:   #FFC0CB;
+}
+#wrapper
+{
+    margin: 0 auto;
+    width:  80%;
+}
+nav ul, footer ul 
+{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0;
+    list-style: none;
+    font-weight: italic;
+}
+nav ul li, footer ul li 
+{
+    display: inline;
+    margin-right: 20px;
+}
+a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover 
+{
+    text-decoration: underline;
+}
+h1 
+{
+    font-size: 4em;
+    font-family:'Times New Roman', 'Georgia', 'Serif';
+}
+p 
+{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer 
+{
+    border-top: 2px solid #cccc99;
+    font-size: .8em;
+}
